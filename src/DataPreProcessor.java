@@ -54,17 +54,8 @@ public class DataPreProcessor {
     }
     
     public static void main(String[] args) {
-        // Assume the CSV file is in the "datasets" subfolder and the ARFF should be saved in the "datasets" subfolder.
-        // If your executable is run from the root of your project folder (yourMemberIDs_Names/), 
-        // the relative paths would look like this:
-        
-        String csvPath = "datasets/" + CSV_FILE_NAME; // Example: points to code/heart_disease.csv
-        String arffPath = "datasets/" + ARFF_FILE_NAME; // Example: saves to code/heart_disease_processed.arff
-
-        // If you were running from the command line, you could also pass these paths:
-        // java DataPreProcessor code/heart_disease.csv code/heart_disease_processed.arff
-        // For simplicity, we hardcode the relative path based on your expected structure.
-
+        String csvPath = "datasets/" + CSV_FILE_NAME;
+        String arffPath = "datasets/" + ARFF_FILE_NAME;
         convertCsvToArff(csvPath, arffPath);
     }
 }
