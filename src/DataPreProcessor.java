@@ -8,8 +8,8 @@ import java.io.File;
 public class DataPreProcessor {
 
     // Define constants for the file names
-    private static final String CSV_FILE_NAME = "heart_disease.csv";
-    private static final String ARFF_FILE_NAME = "heart_disease_processed.arff";
+    private static final String CSV_FILE_NAME = "datasets/heart_disease.csv";
+    private static final String ARFF_FILE_NAME = "datasets/heart_disease_processed.arff";
     
     // The core logic for loading, cleaning, and saving
     public static void convertCsvToArff(String csvPath, String arffPath) {
