@@ -54,8 +54,8 @@ public class DataPreProcessor {
     }
     
     public static void main(String[] args) {
-        String csvPath = "datasets/" + CSV_FILE_NAME;
-        String arffPath = "datasets/" + ARFF_FILE_NAME;
+        String csvPath = CSV_FILE_NAME;
+        String arffPath = ARFF_FILE_NAME;
         convertCsvToArff(csvPath, arffPath);
     }
 }
