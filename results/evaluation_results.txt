@@ -1,0 +1,32 @@
+
+============================================
+RESULTS FOR: Cost-Sensitive J48 (10-Fold CV)
+Evaluation Method: 10-Fold Cross-Validation
+Cost Matrix Used: [0, 1.0; 3.0, 0] (3:1 FN:FP)
+============================================
+Model Building Run-time: 347 ms
+
+Results Summary
+
+Correctly Classified Instances        7795               77.95   %
+Incorrectly Classified Instances      2205               22.05   %
+Kappa statistic                          0.559 
+Mean absolute error                      0.2395
+Root mean squared error                  0.4397
+Relative absolute error                 47.8983 %
+Root relative squared error             87.944  %
+Total Number of Instances            10000     
+
+Detailed Class Performance:
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.628    0.069    0.901      0.628    0.740      0.587    0.815     0.829     No
+                 0.931    0.372    0.715      0.931    0.809      0.587    0.815     0.754     Yes
+Weighted Avg.    0.780    0.221    0.808      0.780    0.774      0.587    0.815     0.791     
+
+Confusion Matrix:
+
+    a    b   <-- classified as
+ 3140 1860 |    a = No
+  345 4655 |    b = Yes
+Overall Accuracy: 77.95%
