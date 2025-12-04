@@ -32,5 +32,5 @@ java -cp "bin;lib/weka.jar" DataPreProcessor
 Run ScaledDataSplitter:
 java -cp "bin;lib/weka.jar" ScaledDataSplitter
 
-
+NOTICE: before running SVM_And_KNN.java run CostSensitive_J48.java first, otherwise it will delete the evaluation result text file and write again!!!
 
