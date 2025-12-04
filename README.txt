@@ -1,7 +1,7 @@
 1. If you wanna run the model, compile all the java first using:
 javac -cp ".;lib/weka.jar" -d bin src/*.java
 
-2. How to run the code
+2. How to run the code (inside the project directory -  root directory)
 Run DataPreProcessor
 java -cp "bin;lib/weka.jar" DataPreProcessor
 
